@@ -4,7 +4,7 @@ services:
     ports:
       - "8501:8501"
     environment:
-      - APP_PASSWORD=suffry
+      - APP_PASSWORD=${APP_PASSWORD}
       - MAX_UPLOAD_MB=20
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8501/_stcore/health"]

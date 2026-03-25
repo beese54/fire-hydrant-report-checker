@@ -23,7 +23,7 @@ from openpyxl.utils import get_column_letter
 from PIL import Image
 
 # ── Config ────────────────────────────────────────────────────────────────────
-APP_PASSWORD = os.environ.get("APP_PASSWORD", "suffry")
+APP_PASSWORD = os.environ.get("APP_PASSWORD", "")
 MAX_UPLOAD_MB = int(os.environ.get("MAX_UPLOAD_MB", "20"))
 
 
