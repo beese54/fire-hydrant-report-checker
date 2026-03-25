@@ -1,6 +1,6 @@
 # SCDF Hydrant Form Checking
 
-A password-protected Streamlit app for SCDF officers to vet hydrant inspection submissions and contractor rectification work. Deployed as an Airbase app.
+A password-protected Streamlit app for SCDF officers to vet hydrant inspection submissions and contractor rectification work — deployable as an Airbase app or hosted locally via Docker.
 
 ---
 
@@ -11,6 +11,10 @@ This app supports two workflows: verifying hydrant defect reports submitted by i
 ---
 
 ## System Workflow
+
+<table>
+<tr>
+<td valign="top" width="55%">
 
 ### Phase 1 — Hydrant Inspection Reporting
 
@@ -47,6 +51,15 @@ This app supports two workflows: verifying hydrant defect reports submitted by i
     - **Satisfactory report** — compiled (all entries in one file) or separated by fire station (one file per station).
     - **Not Satisfactory report** — includes the officer's reasons; sent back to the contractor for re-work.
 16. Officer attaches the satisfactory report to an email to **SCDF**, confirming that hydrant rectification is complete.
+
+</td>
+<td valign="top" width="45%">
+
+<img src="hydrant_rectification_workflow.png" alt="Hydrant Rectification Workflow Diagram" width="100%" />
+
+</td>
+</tr>
+</table>
 
 ---
 
